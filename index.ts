@@ -4,7 +4,7 @@ import cors from "cors";
 
 import { JSONFilePreset } from "lowdb/node";
 
-import type { TUser, TVisa } from "../api/user.js";
+import type { TUser, TVisa } from "./user.js";
 
 const app = express();
 const port = 3000;
