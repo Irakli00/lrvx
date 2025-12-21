@@ -1,0 +1,455 @@
+[
+  {
+    "_id": "d6d206e5-2ca4-443d-8404-dc05284e2d15",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/240/240",
+    "first_name": "Luffy",
+    "last_name": "Monkey",
+    "first_native_name": "Luffy",
+    "last_native_name": "Monkey",
+    "middle_native_name": "David",
+    "department": "Web & Mobile",
+    "building": "Main building",
+    "room": "1404",
+    "date_birth": {
+      "year": 1899,
+      "month": 11,
+      "day": 11
+    },
+    "desk_number": "20",
+    "manager": {
+      "id": "b8f429g7-4ec6-665f-a626-fe27406g4f37",
+      "first_name": "Nami",
+      "last_name": "Navigator"
+    },
+    "phone": "+12931293129",
+    "email": "luffy.monkey@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.21asd41jd1m132",
+    "cnumber": "C53361161313",
+    "citizenship": "japan",
+    "visa": [
+      {
+        "issuing_country": "Wakanda12",
+        "type": "Foreva",
+        "start_date": 1607731200000,
+        "end_date": 1639267200000
+      },
+      {
+        "issuing_country": "Somewhere",
+        "type": "Else",
+        "start_date": -23946019200000,
+        "end_date": -23903942400000
+      }
+    ]
+  },
+  {
+    "_id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+    "isRemoteWork": false,
+    "role": "hr",
+    "user_avatar": "https://picsum.photos/239/239",
+    "first_name": "Zoro",
+    "last_name": "Roronoa",
+    "first_native_name": "Zoro",
+    "last_native_name": "Roronoa",
+    "middle_native_name": "",
+    "department": "Backend Development",
+    "building": "HR office",
+    "room": "1405",
+    "date_birth": {
+      "year": 1899,
+      "month": 11,
+      "day": 11
+    },
+    "desk_number": "21",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293130",
+    "email": "zoro.roronoa@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.32bsd52ke2n243",
+    "cnumber": "C5336117",
+    "citizenship": "Japan",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1652158800000,
+        "end_date": 1683608400000
+      }
+    ]
+  },
+  {
+    "_id": "b8f429g7-4ec6-665f-a626-fe27406g4f37",
+    "role": "hr",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/241/241",
+    "first_name": "Nami",
+    "last_name": "Navigator",
+    "first_native_name": "Nami",
+    "last_native_name": "Navigator",
+    "middle_native_name": "",
+    "department": "Data Analytics",
+    "building": "Remote",
+    "room": "",
+    "date_birth": {
+      "year": 1902,
+      "month": 7,
+      "day": 3
+    },
+    "desk_number": "0",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293131",
+    "email": "nami.navigator@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.43ctd63lf3o354",
+    "cnumber": "C5336118",
+    "citizenship": "Sweden",
+    "visa": [
+      {
+        "issuing_country": "J",
+        "type": "K",
+        "start_date": -27080352000000,
+        "end_date": 7956835200000
+      }
+    ]
+  },
+  {
+    "_id": "c9g530h8-5fd7-776g-b737-gf38517h5g48",
+    "role": "hr",
+    "isRemoteWork": false,
+    "user_avatar": "https://picsum.photos/240/241",
+    "first_name": "Sanji",
+    "last_name": "Vinsmoke",
+    "first_native_name": "Sanji",
+    "last_native_name": "Vinsmoke",
+    "middle_native_name": "",
+    "department": "Data Analytics",
+    "building": "Main building",
+    "room": "1403",
+    "date_birth": {
+      "year": 1900,
+      "month": 3,
+      "day": 2
+    },
+    "desk_number": "19",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293132",
+    "email": "sanji.vinsmoke@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.54due74mg4p465",
+    "cnumber": "C5336119",
+    "citizenship": "France",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1649480400000,
+        "end_date": 1680930000000
+      }
+    ]
+  },
+  {
+    "_id": "d0h641i9-6ge8-887h-c848-hg49628i6h59",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/241/240",
+    "first_name": "Usopp",
+    "last_name": "Sniper",
+    "first_native_name": "Usopp",
+    "last_native_name": "Sniper",
+    "middle_native_name": "",
+    "department": "Web & Mobile",
+    "building": "Remote",
+    "room": "",
+    "date_birth": {
+      "year": 1903,
+      "month": 4,
+      "day": 1
+    },
+    "desk_number": "0",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293133",
+    "email": "usopp.sniper@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.65evf85nh5q576",
+    "cnumber": "C5336120",
+    "citizenship": "Brazil",
+    "visa": []
+  },
+  {
+    "_id": "e1i752j0-7hf9-998i-d959-ih50739j7i60",
+    "role": "employee",
+    "isRemoteWork": false,
+    "user_avatar": "https://picsum.photos/240/239",
+    "first_name": "Robin",
+    "last_name": "Nico",
+    "first_native_name": "Robin",
+    "last_native_name": "Nico",
+    "middle_native_name": "",
+    "department": "Backend Development",
+    "building": "Main building",
+    "room": "1406",
+    "date_birth": {
+      "year": 1898,
+      "month": 2,
+      "day": 6
+    },
+    "desk_number": "22",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293134",
+    "email": "robin.nico@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.76fwg96oi6r687",
+    "cnumber": "C5336121",
+    "citizenship": "Russia",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1654750800000,
+        "end_date": 1686200400000
+      }
+    ]
+  },
+  {
+    "_id": "f2j863k1-8ig0-009j-e060-ji61840k8j71",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/240/242",
+    "first_name": "Chopper",
+    "last_name": "Tony",
+    "first_native_name": "Chopper",
+    "last_native_name": "Tony",
+    "middle_native_name": "Tony",
+    "department": "Data Analytics",
+    "building": "HR office",
+    "room": "",
+    "date_birth": {
+      "year": 1905,
+      "month": 12,
+      "day": 24
+    },
+    "desk_number": "0",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293135",
+    "email": "chopper.tony@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.87gxh07pj7s798",
+    "cnumber": "C5336122",
+    "citizenship": "Canada",
+    "visa": []
+  },
+  {
+    "_id": "g3k974l2-9jh1-110k-f171-kj72951l9k82",
+    "role": "employee",
+    "isRemoteWork": false,
+    "user_avatar": "https://picsum.photos/242/240",
+    "first_name": "Franky",
+    "last_name": "Cutty",
+    "first_native_name": "Franky",
+    "last_native_name": "Cutty",
+    "middle_native_name": "",
+    "department": "Data Analytics",
+    "building": "Main building",
+    "room": "1407",
+    "date_birth": {
+      "year": 1897,
+      "month": 3,
+      "day": 9
+    },
+    "desk_number": "23",
+    "manager": {
+      "id": "c9g530h8-5fd7-776g-b737-gf38517h5g48",
+      "first_name": "Sanji",
+      "last_name": "Vinsmoke"
+    },
+    "phone": "+12931293136",
+    "email": "franky.cutty@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.98hyi18qk8t809",
+    "cnumber": "C5336123",
+    "citizenship": "United States",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1651536000000,
+        "end_date": 1682985600000
+      }
+    ]
+  },
+  {
+    "_id": "h4l085m3-0ki2-221l-g282-lk83062m0l93",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/238/240",
+    "first_name": "Brook",
+    "last_name": "Soul",
+    "first_native_name": "Brook",
+    "last_native_name": "Soul",
+    "middle_native_name": "",
+    "department": "Web & Mobile",
+    "building": "Remote",
+    "room": "",
+    "date_birth": {
+      "year": 1850,
+      "month": 4,
+      "day": 3
+    },
+    "desk_number": "0",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293137",
+    "email": "brook.soul@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.09izj29rl9u910",
+    "cnumber": "C5336124",
+    "citizenship": "Austria",
+    "visa": []
+  },
+  {
+    "_id": "123",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/240/240",
+    "first_name": "Steve",
+    "last_name": "Cook",
+    "first_native_name": "Luffy123",
+    "last_native_name": "Monkey",
+    "middle_native_name": "David",
+    "department": "Web & Mobile",
+    "building": "HR office",
+    "room": "1404",
+    "date_birth": {
+      "year": 1901,
+      "month": 1,
+      "day": 1
+    },
+    "desk_number": "20",
+    "manager": {
+      "id": "c9g530h8-5fd7-776g-b737-gf38517h5g48",
+      "first_name": "Sanji",
+      "last_name": "Vinsmoke"
+    },
+    "phone": "+12931293129",
+    "email": "steve.cook@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.21asd41jd1m132",
+    "cnumber": "C5336116",
+    "citizenship": "Georgia",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1652158800000,
+        "end_date": 1683608400000
+      }
+    ]
+  },
+  {
+    "_id": "123456",
+    "role": "employee",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/241/240",
+    "first_name": "Steve",
+    "last_name": "Cook",
+    "first_native_name": "Luffy123",
+    "last_native_name": "Monkey",
+    "middle_native_name": "Devi",
+    "department": "Backend Development",
+    "building": "Main building",
+    "room": "1404",
+    "date_birth": {
+      "year": 1901,
+      "month": 1,
+      "day": 1
+    },
+    "desk_number": "20",
+    "manager": {
+      "id": "987ff8cb-b506-4d5e-9166-ab8c644bb891",
+      "first_name": "Zoro",
+      "last_name": "Roronoa"
+    },
+    "phone": "+12931293129",
+    "email": "steven.cook@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.21asd41jd1m132",
+    "cnumber": "C5336116",
+    "citizenship": "Georgia",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1652158800000,
+        "end_date": 1683608400000
+      }
+    ]
+  },
+  {
+    "_id": "9999",
+    "role": "admin",
+    "isRemoteWork": true,
+    "user_avatar": "https://picsum.photos/241/240",
+    "first_name": "ADMIN",
+    "last_name": "COOL",
+    "first_native_name": "SUPER",
+    "last_native_name": "MAN",
+    "middle_native_name": "Dan",
+    "department": "Data Analytics",
+    "building": "Remote",
+    "room": "1404",
+    "date_birth": {
+      "year": 1901,
+      "month": 1,
+      "day": 1
+    },
+    "desk_number": "20",
+    "manager": {
+      "id": "c9g530h8-5fd7-776g-b737-gf38517h5g48",
+      "first_name": "Sanji",
+      "last_name": "Vinsmoke"
+    },
+    "phone": "+12931293129",
+    "email": "admin@leverx.com",
+    "password": "$2b$10$i5eNc5iTEpseEvl5mp/5suTLNFY81oyh5jxWE2ZbpHkygWUII/J.K",
+    "skype": "live:.cid.21asd41jd1m132",
+    "cnumber": "C5336116",
+    "citizenship": "Georgia",
+    "visa": [
+      {
+        "issuing_country": "Poland",
+        "type": "National visa type D",
+        "start_date": 1652158800000,
+        "end_date": 1683608400000
+      }
+    ]
+  }
+]
