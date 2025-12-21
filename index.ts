@@ -18,10 +18,10 @@ app.get("/users", async (_, res) => {
   try {
     const db = await JSONFilePreset("data.json", {});
     const data = db.data as TUser[];
-    res.send(data);
+    res.json(data);
   } catch (err) {
     console.error(err);
-    res.status(500).send("Server error");
+    res.status(500).json("Server error");
   }
 });
 
@@ -32,13 +32,13 @@ app.get("/users/:id", async (req, res) => {
     const id = req.params.id;
     const user = data.find((u) => String(u._id) === id);
     if (!user) {
-      return res.status(404).send({ message: "User not found" });
+      return res.status(404).json({ message: "User not found" });
     }
 
     res.json(user);
   } catch (err) {
     console.error(err);
-    res.status(500).send("Server error");
+    res.status(500).json("Server error");
   }
 });
 
@@ -147,7 +147,7 @@ app.post("/sign-in", async (req, res) => {
 
     return res.json(user);
   } catch (err) {
-    res.status(500).send({ message: "Server error" });
+    res.status(500).json({ message: "Server error" });
   }
 });
 
