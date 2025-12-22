@@ -5,29 +5,35 @@ import cors from "cors";
 import { JSONFilePreset } from "lowdb/node";
 
 import type { TUser, TVisa } from "./user.js";
+import { Low } from "lowdb";
 
 const app = express();
 const port = 3000;
+// const db = await JSONFilePreset<TUser[]>("data.json", []);
+let db: Low<TUser[]>;
+
+async function initDB() {
+  db = await JSONFilePreset<TUser[]>("data.json", []);
+}
 
 app.use(cors());
 app.use(express.json());
+app.options("*", cors());
 
 const saltRounds = 10;
 
 app.get("/users", async (_, res) => {
   try {
-    const db = await JSONFilePreset("data.json", {});
     const data = db.data as TUser[];
     res.json(data);
   } catch (err) {
     console.error(err);
-    res.status(500).json("Server error");
+    res.status(500).json({ message: "Server error" });
   }
 });
 
 app.get("/users/:id", async (req, res) => {
   try {
-    const db = await JSONFilePreset("data.json", {});
     const data = db.data as TUser[];
     const id = req.params.id;
     const user = data.find((u) => String(u._id) === id);
@@ -38,13 +44,12 @@ app.get("/users/:id", async (req, res) => {
     res.json(user);
   } catch (err) {
     console.error(err);
-    res.status(500).json("Server error");
+    res.status(500).json({ message: "Server error" });
   }
 });
 
 app.patch("/users/:id", async (req, res) => {
   try {
-    const db = await JSONFilePreset("data.json", {});
     const data = db.data as TUser[];
 
     const userFields = req.body.userFields;
@@ -58,14 +63,11 @@ app.patch("/users/:id", async (req, res) => {
     const newManager = data.find((u) => u._id === managerId);
     const calledBy = req.body.calledBy;
 
-    const user = data.find((u) => u._id === userId);
-
-    if (calledBy.role !== "admin" && calledBy.id !== user?.manager?.id) {
-      res.status(403).json({
+    if (!calledBy || !calledBy.role) {
+      return res.status(401).json({
         status: "error",
         message: "No permission for such action",
       });
-      return;
     }
 
     if (managerId && !newManager) {
@@ -128,7 +130,6 @@ app.patch("/users/:id", async (req, res) => {
 });
 
 app.post("/sign-in", async (req, res) => {
-  const db = await JSONFilePreset("data.json", {});
   const data = db.data as TUser[];
   try {
     const { email, password } = req.body;
@@ -153,7 +154,6 @@ app.post("/sign-in", async (req, res) => {
 
 app.post("/sign-up", async (req, res) => {
   try {
-    const db = await JSONFilePreset("data.json", {});
     const data = db.data as TUser[];
     const user = req.body;
     const email = user.email;
@@ -179,6 +179,8 @@ app.post("/sign-up", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`);
+initDB().then(() => {
+  app.listen(port, () => {
+    console.log(`App listening on port ${port}`);
+  });
 });
