@@ -18,7 +18,6 @@ async function initDB() {
 
 app.use(cors());
 app.use(express.json());
-app.options("/*", cors());
 
 const saltRounds = 10;
 
