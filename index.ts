@@ -8,7 +8,7 @@ import type { TUser, TVisa } from "./user.js";
 import { Low } from "lowdb";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 // const db = await JSONFilePreset<TUser[]>("data.json", []);
 let db: Low<TUser[]>;
 
