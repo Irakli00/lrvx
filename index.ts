@@ -9,7 +9,12 @@ import type { TUser, TVisa } from "./user.js";
 const app = express();
 const port = 3000;
 
-app.use(cors());
+app.use(
+  cors({
+    origin: true,
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 const saltRounds = 10;
