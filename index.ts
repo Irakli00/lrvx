@@ -101,8 +101,9 @@ app.patch("/users/:id", async (req, res) => {
     }
 
     if (
-      (visaType || visaEndDate || visaStartDate) &&
-      data[index].visa?.length
+      visaType ||
+      visaEndDate ||
+      (visaStartDate && data[index].visa?.length)
     ) {
       const updatedVisa: TVisa = {
         issuing_country:
